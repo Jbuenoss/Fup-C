@@ -26,17 +26,11 @@ int main(){
 	if (n3 > 0)
 		positivos++;
 	if (n1 < 0)
-	{
 		++negativos;
-	}
 	if (n2 < 0)
-	{
 		++negativos;
-	}
 	if (n3 < 0)
-	{
 		++negativos;
-	}
 	printf ("%d valor(es) par(es)\n", par);
 	printf ("%d valor(es) impar(es)\n", impar);
 	printf ("%d valor(es) positivo(s)\n", positivos);
